@@ -37,7 +37,7 @@ Waze’s free navigation app makes it easier for drivers around the world to get
 ### How to Navigate
 - For each module, navigate to the corresponding folder.
 - Inside each module's folder, you will find the activity labs I completed during the mudule.
-- Inside the End-of-Course Projects folder, you will finde the project that I build at the end of each module.
+- Inside the End-of-Course Projects folder, you will find the projects that I built at the end of each module.
 
 ### Technologies Used
 - **Python**: For scripting and running data analysis tasks.
