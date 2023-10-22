@@ -1,52 +1,24 @@
-# Stavros Xakis
-## Google Advanced Data Analytics Professional Certificate Repository
+# Go Beyond the Numbers Translate Data into Insights
 
-### Introduction
-Hello! My name is Stavros Xakis, and this repository contains the labs and projects completed during the Google Advanced Data Analytics Professional Certificate. Each folder represents a module in the Certificate, and inside you'll find the Jupyter Notebooks I used to complete the activities along with my code solutions and notes.
+## What I took from those activities? - Let's see:
+In this course, I learned how to find the story within data and compellingly tell that story. With visualizations to be a major element of the course, I learned various visualization types such as `box plots`, `histograms`, `heat maps`, and `geo maps`, which type is more suitable for each scenario, and how to `interpret the visualizations` I have created. For this cause, I had to work in-depth with key Python libraries such as `matplotlib.pyplot`, `seaborn`, and `plotly` as well as with the visualization software `Tableau`.
 
-### Repository Structure
-This repository is organized as follows:
+This course delves into the procedure of `Exploratory Data Analysis (EDA)` segmenting it into 6 fundamental stages. Following the course, I quickly learned that EDA is not like a cake recipe. It is not a step-by-step process you follow. Instead, the six practices of EDA are iterative and non-sequential.
 
-#### **Module Activity Lab Files:**
-There are multiple activity labs across each module, designed to offer hands-on experience. In each lab, I practiced and executed every concept, method, and technique I learned through the Instructor's videos, reading material, and annotated follow-along guides which are built Jupyter Notebooks that illustrate the use of each subject in real-life data.
+- `Discovering`: The process data professionals use to familiarize themselves with the data so they can start conceptualizing how to use it.
+- `Cleaning`: The process of removing errors that might distort your data or make it less useful.
+- `Structuring`: The process of taking raw data and organizing or transforming it to be more easily visualized, explained, or modeled.
+- `Joining`: The process of augmenting data by adding values from other datasets.
+- `Validating`: The process of verifying that the data is consistent and high-quality.
+- `Presenting`: The process of making a cleaned dataset available to others for analysis or further modeling.
 
-- **`Foundations of Data Science`**:  
-> Module 1. No labs available - Practiced on how to stucture my workflow based on the PACE method (Plan,Analyze,Construct,Execute).
-- **`Get Started with Python/`:**
-> Activity Labs of the Course (Module 2). In this module I practiced on Python's basic topics such as "Python Syntax", "for/while loops", "Conditional Statements", "NumPy Functions", "List/Tuples/Dictionaries/Sets" and "Pandas".
-- **`Go Beyond the Numbers Translate Data into Insights/`:**
-> Activity Labs of the Course (Module 3). In this module I went through each step of the EDA procedure. I practiced on how to clean my data, how to address missing values, how to address outliers, how to structure my data, how to create and interpret visualizations.
-- **`The Power of Statistics/`**: 
-> Activity Labs of the Course (Module 4). In this lab I practiced on conducting Statistical Analysis with Python. More specificaly, I used Jupyter Notebooks to explore descriptive statistics, probability distributions, sampling, confidence intervals, and hypothesis testing.
-- **`Regression Analysis: Simplify Complex Data Relationships/`:**
-> In progress (Module 5)...
-- **`The Nuts and Bolts of Machine Learning/`:**
-> In progress (Module 6)...
-- **`Google Advanced Data Analytics Capstone/`:**
-> In progress (Final Project)...
+The course drove me through every one of the 6 practices thoroughly. I learned how to use advanced Python code and techniques to understand the data format, `manipulate datetime variables`, and use structuring methods to establish order in my dataset.
 
-#### **End-of-Course Projects:**
-The end-of-course project of each module was created according to a workplace scenario with continuous development between modules. More specifically, my chosen scenario was the Waze churn project.
+Additionally, I faced the challenge of `missing data`, `duplicated data`, and `outliers`.
 
-**Project goal:**
-"Waze leadership has asked your data team to develop a machine learning model to predict user churn. Churn quantifies the number of users who have uninstalled the Waze app or stopped using the app. This project focuses on monthly user churn. An accurate model will help prevent churn, improve user retention, and grow Waze’s business."
+- I learned how to identify duplicated elements along with how and when to proceed with deduplication methods.
+- I gained proficiency in managing missing data, employing various techniques to address them depending on their impact on my dataset.
+- Finally, I learned how to work with outliers, how to detect them and determine whether to remove, reassign, or retain them in my dataset depending on the influence they could have on my analysis results.
 
-**Background:**
-Waze’s free navigation app makes it easier for drivers around the world to get to where they want to go. Waze’s community of map editors, beta testers, translators, partners, and users helps make each drive better and safer. 
+Furthermore, I also practice `label encoding` and `one-hot encoding`, learning how to change categorical data to numerical data, the pros and cons of each approach, and how to decide which encoding method to follow.
 
-### How to Navigate
-- For each module, navigate to the corresponding folder.
-- Inside each module's folder, you will find the activity labs I completed during the mudule.
-- Inside the End-of-Course Projects folder, you will finde the project that I build at the end of each module.
-
-### Technologies Used
-- **Python**: For scripting and running data analysis tasks.
-- **Jupyter Notebooks**: For interactive data analysis and visualization.
-- **Pandas**: For data manipulation and analysis.
-- **NumPy**: For math functions and descriptive statistics.
-- **Matplotlib.pyplot**: For manipulation of visualizations.
-- **Seaborn**: For appealing visualizations.
-- **Plotly.express**: For map visualizations.
-- **Datetime**: For datetime manipulations.
-- **stats from SciPy**: For statistical analysis.
-- **Tableau**: For visualization dashboards.
