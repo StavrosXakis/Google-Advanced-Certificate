@@ -14,14 +14,35 @@ There is one PDF file accompaning each Jupyter Notebook. This file contains an E
 
 ### Project per Module:
 
-#### **Get Started with Python (Module 2)**:
+#### **`Get Started with Python (Module 2)`:**
 
 **Module's Scenario:**  
 "Your team is in the early stages of their user churn project. Your project proposal has been approved and your team has been given access to Waze’s user data. To get clear insights, the data must first be inspected, organized, and prepared for analysis."
 
-**My assignment:**
+**My assignment:**  
 "You will build a dataframe for the churn data. After the dataframe is complete, you will organize the data for the process of exploratory data analysis, and update the team on your progress and insights."
 
-**Procedure Summary:**
+**Procedure Summary:**  
 For the cause of my analysis, I used the Libraries Pandas and NumPy. Firstly, I imported the provided data to a data frame for inspection. Then, I summarized my data reviewing the available data types, number of variables/observations, and summary statistics while I also checked for Null Values. As the next step, I isolated the data frame of the revealed null values to a second data frame and compared it with the initial trying to find the cause of the missing values. After dealing with null values, I continued by exploring my dataset with respect to my main  variable (label) which labels the users as retained or churned. Placed in the early stages of an analytical procedure, my goal was to explore the data, identify relationships between the available variables, and acknowledge the representative percentage of categorical variables, to understand the reasons that led a user to churn.
 
+#### **`Go Beyond the Numbers Translate Data into Insights (Module 3)`:**
+
+**Module's Scenario:**  
+"Your team is still in the early stages of their user churn project. So far, you’ve completed a project proposal, and used Python to inspect and organize Waze’s user data. Now, the data is ready for exploratory data analysis (EDA) and further data visualization."
+
+**My assignment:**  
+"You will conduct exploratory data analysis on data for the churn project. You’ll also use tools to create visuals for an executive summary to help non-technical stakeholders engage and interact with the data."
+
+**Procedure Summary:**  
+For the cause of my analysis, I used the Libraries Pandas, NumPy, Matplotlib.pyplot, and Seaborn. The project's goal was to dive deeper into the dataset, apply EDA practices, and use visualizations that would help me to identify relationships between variables, and trends leading me to conclusions about what caused a user to churn. During my analysis, I mainly used box plots and histograms to examine the spread and distribution of important variables, highlight significant points of users' behavior, and spot data abnormalities. I also combined variables to examine relationship rules that would help me form the right questions for further analysis. Of course, I had to perform other coding actions such as creating additional KPIs, filtering out problematic values, as well as handling outliers.
+
+#### **`The Power of Statistics (Module 4)`:**
+
+**Module's Scenario:**  
+"Your team is nearing the midpoint of their user churn project. So far, you’ve completed a project proposal, and used Python to analyze and visualize Waze’s user data. Now, leadership has a new request for your team: use hypothesis testing to analyze the relationship between mean amount of rides and device type."  
+
+**My assignment:**  
+"You will conduct hypothesis testing on the data for the churn data. The data team has asked you to investigate Waze's dataset to determine which hypothesis testing method best serves the data and the churn project."  
+
+**Procedure Summary:**  
+For the cause of my analysis, I used the Library Pandas and the module stats from SciPy. My analysis begins by computing the mean number of drives with respect to each device type. Computing descriptive statistics helps me quickly compare the average number of drives for the two samples (Android & iPhone users). Then, I begin the Hypothesis testing process to determine if the difference between the two population means is due to sample variability or if it is statistically significant. My goal is to conduct a two-sample t-test. Firstly, I state the null hypothesis. Secondly, I state a 95% significance level. Thirdly I compute the p-value and finally, according to my results, I fail to reject the null hypothesis meaning that the observed difference between the two sample means is indeed due to chance.
